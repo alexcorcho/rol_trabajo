@@ -1,26 +1,37 @@
+body{
+    background-image: url("img/fondo.jpg");
+    background-repeat: no-repeat;
+    
+}
+
 .clase{
     width: 35%;
     height: 120px;
-    border: 0.1em solid gray;
-    text-align: center;
+    border: 0.1em solid gray;    
     margin: 10px;
-     
-   
+    background: rgba(14, 123, 212, 0.479);
+    color: aliceblue;
+    
 }
 .Descripcion{
+    color: aliceblue;
     width: 35%;
     height: 550px;
     border: 0.1em solid gray; 
     margin: 10px;
-   
 }
 
 article{
-    font-size: 1em;
+    font-size: 15px;
     font-family:sans-serif;
     margin: 30px;
 }
 
 h3{
     margin: 30px;
+}
+
+h1{
+    margin: 80px 20px ;
+    
 }
