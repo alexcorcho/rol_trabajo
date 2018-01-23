@@ -1,0 +1,26 @@
+.clase{
+    width: 35%;
+    height: 120px;
+    border: 0.1em solid gray;
+    text-align: center;
+    margin: 10px;
+     
+   
+}
+.Descripcion{
+    width: 35%;
+    height: 550px;
+    border: 0.1em solid gray; 
+    margin: 10px;
+   
+}
+
+article{
+    font-size: 1em;
+    font-family:sans-serif;
+    margin: 30px;
+}
+
+h3{
+    margin: 30px;
+}
