@@ -1,40 +1,85 @@
 body{
-    background-image: url("img/fondo.jpg");
+    
     background-repeat: no-repeat;
-    background-position: 150px;
+    background-size:1360px 800px;
+    background-position: right;
+    background-color: rgba(7, 103, 228, 0.575)
     
+    
+    
+}
 
-    
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    font-family: 'Gentium Book Basic', serif;
+    display: block;
+    color: rgba(3, 139, 250, 0.925);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: rgb(221, 236, 222);
 }
 
 .clase{
-    width: 35%;
+    width: 40%;
     height: 120px;
     border: 0.1em solid gray;    
     margin: 10px;
-    background: rgba(14, 123, 212, 0.479);
+    /*background: rgba(10, 97, 100, 0.425);*/
     color: aliceblue;
+    margin: 10px 0 0 700px;
+    text-shadow: 2px 3px rgb(88, 22, 22);
+    
     
 }
 .Descripcion{
-    color: aliceblue;
-    width: 35%;
-    height: 550px;
-    border: 0.1em solid gray; 
-    margin: 10px;
+    background: rgba(10, 97, 100, 0.425);
+    width: 40%;
+    height: 570px;
+    border: 0.1em solid gray;     
+    margin: 5px 0 0 700px;
+    font-family: 'Gentium Book Basic', serif;
+    text-shadow: 2px 3px rgb(88, 22, 22);
+    
 }
 
 article{
-    font-size: 15px;
-    font-family:sans-serif;
+    
+    font-size: 17px;
+    font-family: 'Gentium Book Basic', serif;
     margin: 30px;
+    color:white;
+    text-align: justify;
+    font-weight: bold;
+    text-shadow: 2px 3px rgb(88, 22, 22);
 }
 
 h3{
     margin: 30px;
+    color:white;
 }
 
 h1{
-    margin: 80px 20px ;
-    
+    font-family: 'Gentium Book Basic', serif;
+    margin: 80px 20px ;    
+    text-shadow: 2px 3px rgb(88, 22, 22);
+        
 }
