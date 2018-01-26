@@ -1,0 +1,57 @@
+
+
+header{
+    margin: 10px auto ;
+     width: 1200px;
+    height: 230px;
+    background-color:red;
+    
+}
+
+.contenedor{
+    width: 200px;
+    height: 230px;
+    float: left;    
+}
+
+#uno{
+    background-color: rgb(208, 101,3);
+}
+#dos{
+    background-color: rgb(233, 147,26);
+}
+#tres{
+    background-color: rgb(22, 145,190);
+}
+#cuatro{
+    background-color: rgb(22, 107,162);
+}
+#cinco{
+    background-color: rgb(27, 54,71);
+}
+#seis{
+    background-color: rgb(21, 40,54);
+}
+
+img.icon {
+    background-color:rgba(255,255,255,0.10);
+    display: block;
+    margin: 50px auto;
+    width: 75px;
+    padding:20px;
+    border-radius: 50%; 
+    box-shadow: 0 0 0 3px white;    
+}
+
+.texto{
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+    padding-top:10px;
+    
+}
+
+   .contenedor:hover{
+       height: 250px;
+   }
+
