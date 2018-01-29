@@ -7,14 +7,14 @@
     <title>Solo Rol</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilos.css">
- 
+    <script src="js/modal.js"></script>
    
-    <script src="js/bootstrap.min.js"></script>
+   
 </head>
 <body>
     <header>
-        <div class="contenedor" id="uno">
-            <img class="icon" src="img/icon1.png" alt="uno" >            
+        <div class="contenedor" id="uno">                      
+            <a href="javascript:modal('visible');" ><img class="icon" src="img/icon1.png" alt="uno" ></a>
             <p class="texto">RAZA</p>
         </div>
         <div class="contenedor" id="dos">
@@ -36,10 +36,21 @@
         <div class="contenedor" id="seis">
             <img class="icon" src="img/icon6.png" alt="seis">
             <p class="texto">DOTES</p>
-        </div>
-     
+        </div>    
 
         
+            <div id="bgventana">
+                <div id="ventana">
+                        <a href="javascript:modal('hidden');" class="texto">Cerrar</a>
+                    <img src="img/fondo2.jpg" alt=" grerrero">
+                    <p>
+                       Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                       Architecto, reprehenderit ut itaque vel enim quas amet corporis
+                       , vero temporibus sunt qui molestias numquam. Dolorem vitae 
+                       perspiciatis, qui voluptatum vero excepturi? 
+                    </p>
+                </div>            
+            </div>
     </header>
     
 </body>
