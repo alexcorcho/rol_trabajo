@@ -1,28 +1,13 @@
 
-/*flechas*/
-.f-izquierda{
-    text-decoration: none;
-    font-size: 80px;
-    color: rgb(24, 224, 84);
-    text-shadow: 2px 4px  black;
- 
+body{
+    font-family: 'Roboto', sans-serif;    
 }
 
-
-
-
-.f-izquierda:hover{
-    text-decoration: none;
-}
-.f-derecha:hover{
-    text-decoration: none;
-}
 /* cabecera */
    header{
     border-style: solid;
     border-color:transparent transparent #96A702 transparent; 
     width: 100%;
-    position:fixed;
     height: 110px;
     top: 0px;   
     background-color: #001A19;   
@@ -33,16 +18,64 @@
     background-color:#0B3936;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
-    height: 130px;
-    margin-top: 120px;
+    height: 100px;
+    margin-top: 20px;
     margin-left: 40px;
-    width: 470px;
-       
+    width: 470px;       
 }
 
-.n-nombre{
+#f-izquierda{
+    height: 80px;
+    width: 80px;    
     display: inline-block;
-    color: white;
-    font-size: 40px;
-    margin-left: 90px;  
+    margin-left: 0px;
+    position: absolute; 
+    margin-top: 8PX; 
+}
+
+#f-izquierda-verde{
+    height: 80px;
+    width: 80px;    
+    display: inline-block;
+    margin-left: 12px;
+    position: absolute;
+    margin-top: 8PX;             
+}
+
+#f-derecha-verde{
+    height: 80px;
+    width: 80px;    
+    display: inline-block; 
+    margin-left: 380px;
+    position: absolute;
+    margin-top: 8PX; 
+}
+
+#f-derecha{
+    height: 80px;
+    width: 80px;    
+    display: inline-block;
+    position: absolute; 
+    margin-left: 390px; 
+    margin-top: 8PX;     
+}
+
+#titulo{
+    display: inline-block;     
+    font-size: 35px;
+    color:white;   
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 150PX;
+   
+}
+
+.descripcion{
+    background-color:rgb(27, 161, 152);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    height: 400px;    
+    margin-left: 40px;
+    width: 470px; 
+    -webkit-box-shadow: 10px 10px 119px -30px rgba(0,0,0,0.75);
 }
