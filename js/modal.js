@@ -1,5 +1,5 @@
 function modal(_valor){
-    document.getElementById("bgventana").style.visibility=_valor;
+    document.getElementById("modal").style.visibility=_valor;
 }
 
 // para ejecutar script dentro de una etiqueta a//
