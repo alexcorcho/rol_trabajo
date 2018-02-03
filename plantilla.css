@@ -1,7 +1,13 @@
 
 body{
-    font-family: 'Roboto', sans-serif;    
+    font-family: 'Roboto', sans-serif;
+    background-image: url("../img/fondo.jpg" ) ; 
+    background-repeat: no-repeat;
+    background-size: 1350px 680px
+   
+   
 }
+
 
 /* cabecera */
    header{
@@ -81,7 +87,7 @@ body{
 }
 
 .descripcion{
-    background-color:rgb(27, 161, 152);
+    background-color:rgba(27, 161, 152, 0.233);
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
     height: 400px;
