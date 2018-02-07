@@ -1,11 +1,6 @@
 
 body{
-    font-family: 'Roboto', sans-serif;
-    background-image: url("../img/fondo.jpg" ) ; 
-    background-repeat: no-repeat;
-    background-size: 1350px 680px
-   
-   
+    font-family: 'Roboto', sans-serif; 
 }
 
 
@@ -120,3 +115,14 @@ body{
     margin-left: 450px;
 }
 
+.fondo-guerrero{
+    background-color: rgba(0, 119, 109, 0.78);
+}
+
+.fondo-paladin{
+background: rgba(86, 129, 1, 0.78);
+}
+
+.fondo-barbaro{
+    background-color: rgba(196, 50, 42, 0.78);
+}
