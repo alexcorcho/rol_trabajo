@@ -1,0 +1,183 @@
+
+body{
+    font-family: 'Roboto', sans-serif; 
+    margin: 0;
+    
+}
+
+
+/*cabecera */
+   header{
+    border-style: solid;
+    border-color:transparent transparent #96A702 transparent; 
+    width: 100%;
+    height: 110px;
+    top: 0px;   
+    background-color: #001A19;   
+    color:#96A702;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    
+   }
+.juego{    
+    text-align: center;
+   
+}
+   
+
+
+   /*Nombre*/
+.nombre{
+    background-color:#0B3936;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 40px;
+    width: 470px;       
+}
+
+/*flechas*/
+#f-izquierda{
+    height: 80px;
+    width: 80px;    
+    display: inline-block;
+    margin-left: 0px;
+    position: absolute; 
+    margin-top: 8PX; 
+}
+
+#f-izquierda-verde{
+    height: 80px;
+    width: 80px;    
+    display: inline-block;
+    margin-left: 6px;
+    position: absolute;
+    margin-top: 8PX;             
+}
+#f-izquierda-verde:hover{
+    margin-left: 0px;
+    -webkit-transition: 0.1s;
+}
+
+#f-derecha-verde{
+    height: 80px;
+    width: 80px;    
+    display: inline-block; 
+    margin-left: 385px;
+    position: absolute;
+    margin-top: 8PX; 
+}
+#f-derecha-verde:hover{
+    margin-left: 390px;
+    -webkit-transition: 0.1s;
+}
+
+
+#f-derecha{
+    height: 80px;
+    width: 80px;    
+    display: inline-block;
+    position: absolute; 
+    margin-left: 390px; 
+    margin-top: 8PX;     
+}
+
+/*titulo*/
+#titulo{
+    display: inline-block;     
+    font-size: 35px;
+    color:white;   
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 150PX;  
+}
+
+.descripcion{
+    background-color:rgba(27, 161, 152, 0.233);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    margin-bottom: 10px;
+    height: 400px;
+    margin-left: 40px;
+    padding: 1em;
+    text-align: justify;
+    font-style: bold;
+    width: 438px; 
+    color: white;    
+    -webkit-box-shadow: 10px 10px 119px -30px rgba(0,0,0,0.75);
+}
+
+#modal{
+    
+    height: 100%;
+    width: 100%;
+    position:fixed;
+    top:0;
+    left: 0;
+    z-index: 1;
+    opacity: 0.9;
+    visibility: hidden;
+}
+#ventana{
+    background: rgb(4, 75, 75);
+    border: solid #ffffff 2px;
+    width: 1100px;
+    height: 400px;
+    
+    margin-top: 120px;
+    margin-left: 120px;
+    color: white;
+    padding: 1em;
+    text-align: justify;
+}
+
+.fondo-guerrero{
+    background-image:url("img/humanos.jpg") ;
+    background-repeat: no-repeat;
+    background-position: 0 116px;
+    
+}
+
+.fondo-paladin{
+background-image:url("img/explorador.jpg") ;
+    background-repeat: no-repeat;
+    background-position: 0 116px;
+    
+}
+
+.fondo-barbaro{
+    background-image:url("img/guerrero.jpg") ;
+    background-repeat: no-repeat;
+    background-position: 0 116px;
+    
+}
+.logo{
+    float: right;
+   
+    margin-left: -260px;
+    margin-top: -260px;
+}
+
+footer{
+    border-style: solid;
+    border-color:#96A702 transparent transparent transparent; 
+    width: 100%;
+    height: 110px;
+    top: 0px;   
+    background-color: #001A19;   
+   }
+
+   .icon{
+              
+       border-radius: 50%;
+       border: 4px solid white;
+       margin: 5px;
+       padding: 5px;
+   }
+
+   .icon:hover{
+    border: 4px solid #96A702;
+   }
+
+   
