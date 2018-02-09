@@ -23,8 +23,6 @@ body{
     text-align: center;
    
 }
-   
-
 
    /*Nombre*/
 .nombre{
@@ -132,21 +130,21 @@ body{
     text-align: justify;
 }
 
-.fondo-guerrero{
+.fondo-humano{
     background-image:url("img/humanos.jpg") ;
     background-repeat: no-repeat;
     background-position: 0 116px;
     
 }
 
-.fondo-paladin{
-background-image:url("img/explorador.jpg") ;
+.fondo-elfo{
+    background-image:url("img/elfo.jpg") ;
     background-repeat: no-repeat;
     background-position: 0 116px;
     
 }
 
-.fondo-barbaro{
+.fondo-enano{
     background-image:url("img/guerrero.jpg") ;
     background-repeat: no-repeat;
     background-position: 0 116px;
