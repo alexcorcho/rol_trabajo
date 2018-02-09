@@ -1,0 +1,29 @@
+header{
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+    font-family: 'Permanent Marker', cursive;  
+    text-align: center;
+    font-size: 45px;
+    color:#96A702;
+}
+
+html{
+    background-color: #001A19
+}
+
+.cuadro{
+border-style: solid;
+border-color: white;
+height: 300px;
+width: 350px;
+position: absolute;
+margin: 100px 0 0 500px;
+
+}
+
+input{
+    position: absolute;
+    width: 250px;
+    height: 100px;
+    margin: 45px
+}
