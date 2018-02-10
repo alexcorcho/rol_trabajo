@@ -21,6 +21,8 @@ body{
    }
 .juego{    
     text-align: center;
+    float: right;
+    padding: 0;
    
 }
    
@@ -133,21 +135,21 @@ body{
 }
 
 .fondo-guerrero{
-    background-image:url("img/clerigo.jpg") ;
+    background-image:url("../img/clerigo.jpg") ;
     background-repeat: no-repeat;
     background-position: 0 116px;
     
 }
 
 .fondo-paladin{
-background-image:url("img/explorador.jpg") ;
+background-image:url("../img/explorador.jpg") ;
     background-repeat: no-repeat;
     background-position: 0 116px;
     
 }
 
 .fondo-barbaro{
-    background-image:url("img/guerrero.jpg") ;
+    background-image:url("../img/guerrero.jpg") ;
     background-repeat: no-repeat;
     background-position: 0 116px;
     

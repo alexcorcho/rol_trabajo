@@ -7,9 +7,7 @@ header{
     color:#96A702;
 }
 
-html{
-    background-color: #001A19
-}
+
 
 .cuadro{
 border-style: solid;
@@ -22,8 +20,22 @@ margin: 100px 0 0 500px;
 }
 
 input{
+    font-size: 20px;
     position: absolute;
+    color:whitesmoke;
     width: 250px;
     height: 100px;
-    margin: 45px
+    margin: 45px;
+    background-color:transparent ;
+    border-color: transparent transparent green transparent;
+}
+
+input:hover{
+    color:#96A702;
+    
+}
+body{
+    background-image: url("../img/fondo-page.jpg");
+    background-repeat: no-repeat;
+
 }
