@@ -9,7 +9,6 @@ body {
     
 }
 
-
 input{
     width: 100%;
     padding: 12px 20px;
@@ -58,13 +57,10 @@ button:hover {
     padding: 16px;
 }
 
-
-
 .login{
 width: 350px;
 height: 650px;
 float: right;
-
 background-color: #00A875;
 }
 
@@ -73,10 +69,8 @@ background-color: #00A875;
     float: left;
     margin-top: 8em;
     margin-right: 2em;
-    color: white;
-    
+    color: white;    
 }
-
 
 .logo{
 width: 100%;
@@ -86,3 +80,12 @@ margin-left: 6em;
 p{
     margin-left: 6em;
 }
+
+.tag{
+width: 180px;
+height: 650px;
+background-color: #00A875;
+display: inline-block;
+
+}
+
