@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica; 
+    background-color:#151922;
+    
+}
+
+
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+    background-color: rgb(64, 197, 69);
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+.mas{
+    margin-left: 7em;
+    width:30% ;
+}
+
+.avatar{
+    width: 70%;
+   
+}
+
+.container {
+    padding: 16px;
+}
+
+
+
+.login{
+width: 350px;
+height: 650px;
+float: right;
+
+background-color: #00A875;
+}
+
+.derecho{
+    width: 50%;
+    float: left;
+    margin-top: 8em;
+    margin-right: 2em;
+    color: white;
+    
+}
+
+
+.logo{
+width: 100%;
+margin-left: 6em;
+}
+
+p{
+    margin-left: 6em;
+}
