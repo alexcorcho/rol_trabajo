@@ -138,6 +138,7 @@ body{
     background-image:url("../img/clerigo.jpg") ;
     background-repeat: no-repeat;
     background-position: 0 116px;
+    background-size: 1600px 550px;
     
 }
 
@@ -145,6 +146,7 @@ body{
 background-image:url("../img/explorador.jpg") ;
     background-repeat: no-repeat;
     background-position: 0 116px;
+    background-size: 1600px 550px;
     
 }
 
@@ -152,7 +154,7 @@ background-image:url("../img/explorador.jpg") ;
     background-image:url("../img/guerrero.jpg") ;
     background-repeat: no-repeat;
     background-position: 0 116px;
-    
+    background-size: 1600px 550px;
 }
 .logo{
     float: right;
