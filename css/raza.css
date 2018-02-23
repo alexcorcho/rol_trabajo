@@ -1,0 +1,107 @@
+
+
+body {
+    font-family: Arial, Helvetica; 
+    background-color:#151922;
+    
+}
+
+
+
+#a-humano{
+    background-color: #4CAF50;
+    position: relative;   
+    
+}
+
+#humano{
+    background-color: #4CAF50;
+    position: relative;    
+}
+#a-elfo{
+    background-color: rgb(32, 179, 184);
+    position: relative; 
+}
+
+#elfo{
+    background-color: rgb(32, 179, 184);
+    position: relative;   
+}
+
+
+#a-semi-elfo{
+    background-color: rgb(112, 29, 145);
+    position: relative;
+}
+#semi-elfo{
+    background-color: rgb(112, 29, 145);
+    position: relative;
+
+}
+
+#a-semi-orco{
+    background-color: rgb(131, 21, 94);
+    position: relative;
+}
+#semi-orco{
+    background-color: rgb(131, 21, 94);
+    position: relative;
+    
+}
+#a-semi-elfo{
+    background-color: rgb(112, 29, 145);
+    position: relative; 
+}
+
+#a-mediano{
+    background-color: rgb(141, 16, 47);
+    position: relative;
+}
+#mediano{
+    background-color: rgb(141, 16, 47);
+    position: relative;
+    
+}
+#a-enano{
+    background-color: rgb(189, 151, 28);
+    position: relative;  
+}
+#enano{
+    background-color: rgb(189, 151, 28);
+    position: relative;  
+   
+}
+#a-gnomo{
+    background-color: rgb(207, 35, 35);
+    position: relative;
+}
+#gnomo{
+    background-color: rgb(207, 35, 35);
+    position: relative;    
+}
+
+.contenedor a{
+    text-decoration: none;
+    display: block;
+    line-height: 2.5em;
+    padding: 0.1em;
+    color: white;
+    font-weight: bold;
+    height: 40px;
+    width: 50%;
+   
+}
+p{
+    padding: 0.5em;
+    margin: 0;
+    display: none;
+    width: 49%;
+}
+
+p:target{
+    color:white ;
+    display: block;
+}
+
+
+
