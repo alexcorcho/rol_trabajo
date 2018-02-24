@@ -1,107 +1,150 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
 
 body {
     font-family: Arial, Helvetica; 
     background-color:#151922;
+}
+
+.contenedor{
+   
+    position: absolute;
     
 }
 
+h1{
+   position:fixed ;
+    color: white;
+    font-size: 60px;
+    position: relative; 
+    
+    
+}
 
+.titulo{
+    display: inline-block;
+    width: 50px;   
+    height: 650px;
+    writing-mode: vertical-rl;
+    text-align: initial;
+    font-size: 30px;
+    text-decoration: none;
+    color:white;
+    margin: 0;
+    
+}
+.texto-raza{
+   
+    width: 100px;    
+    height: 650px;
+    display: none;
+    
+    
+    
+}
+
+.texto-raza:target{
+    width: 900px;
+    display: inline-block;
+    
+}
+div{ 
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    height: 386px;
+    float: left;
+}
+
+.texto{
+    float: left;
+}
+  
 
 #a-humano{
-    background-color: #4CAF50;
-    position: relative;   
-    
+    background-color:#017E7A;
 }
 
 #humano{
-    background-color: #4CAF50;
-    position: relative;    
+    background-color: #017E7A;
 }
+
 #a-elfo{
-    background-color: rgb(32, 179, 184);
-    position: relative; 
+    background-color: #A32E24;
 }
 
 #elfo{
-    background-color: rgb(32, 179, 184);
-    position: relative;   
+    background-color: #A32E24;
 }
-
 
 #a-semi-elfo{
-    background-color: rgb(112, 29, 145);
-    position: relative;
+background-color: #C14401;
 }
+
 #semi-elfo{
-    background-color: rgb(112, 29, 145);
-    position: relative;
-
+    background-color: #C14401;
 }
-
 #a-semi-orco{
-    background-color: rgb(131, 21, 94);
-    position: relative;
+background-color: #41740B;
 }
+
 #semi-orco{
-    background-color: rgb(131, 21, 94);
-    position: relative;
-    
-}
-#a-semi-elfo{
-    background-color: rgb(112, 29, 145);
-    position: relative; 
+background-color: #41740B;   
 }
 
 #a-mediano{
-    background-color: rgb(141, 16, 47);
-    position: relative;
+background-color: #FD9502;
 }
+
 #mediano{
-    background-color: rgb(141, 16, 47);
-    position: relative;
-    
+    background-color: #FD9502;
 }
+
 #a-enano{
-    background-color: rgb(189, 151, 28);
-    position: relative;  
+background-color: #2B4506;
 }
 #enano{
-    background-color: rgb(189, 151, 28);
-    position: relative;  
-   
+    background-color: #2B4506;
 }
+
 #a-gnomo{
-    background-color: rgb(207, 35, 35);
-    position: relative;
+ background-color: #4F028C;   
 }
+
+
 #gnomo{
-    background-color: rgb(207, 35, 35);
-    position: relative;    
-}
+    background-color: #4F028C;   
+   }
 
-.contenedor a{
-    text-decoration: none;
-    display: block;
-    line-height: 2.5em;
-    padding: 0.1em;
-    color: white;
+.rasgos{
     font-weight: bold;
-    height: 40px;
-    width: 50%;
-   
+    text-decoration: none;
+    color:white;    
+    display: block; 
+    padding: 1em; 
+    background-color: tomato;  
+    margin: 5px;
+    
+    
 }
-p{
-    padding: 0.5em;
-    margin: 0;
-    display: none;
-    width: 49%;
+#activar{
+   background-color: rgb(27, 156, 231);
+
+}
+#header{
+    background-image: url('../img/logo-copia.jpg');   
+    
+ 
+    background-repeat: no-repeat;
 }
 
-p:target{
-    color:white ;
-    display: block;
+.rasgos:hover{
+    background-color: rgba(255, 99, 71, 0.9);    
 }
-
-
-
