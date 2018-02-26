@@ -25,8 +25,8 @@ h1{
 
 .titulo{
     display: inline-block;
-    width: 50px;   
-    height: 650px;
+    width: 41px;   
+    height: 200px;
     writing-mode: vertical-rl;
     text-align: initial;
     font-size: 30px;
@@ -38,8 +38,10 @@ h1{
 .texto-raza{
    
     width: 100px;    
-    height: 650px;
+    height: 200px;
     display: none;
+    color: white;
+    font-weight: 550;
     
     
     
@@ -129,7 +131,7 @@ background-color: #2B4506;
     color:white;    
     display: block; 
     padding: 1em; 
-    background-color: tomato;  
+    background-color:tomato;  
     margin: 5px;
     
     
@@ -144,5 +146,8 @@ background-color: #2B4506;
 }
 
 .rasgos:hover{
-    background-color: rgba(255, 99, 71, 0.9);    
+    background-color: red;    
+}
+#activar:hover{
+    background-color: blue;
 }

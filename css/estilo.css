@@ -44,8 +44,10 @@ button:hover {
     margin: 24px 0 12px 0;
 }
 .mas{
-    margin-left: 7em;
+    margin-left: 26em;
     width:30% ;
+    font-weight: 600;
+   
 }
 
 .avatar{
@@ -77,6 +79,11 @@ width: 100%;
 margin-left: 6em;
 }
 
+p{
+    padding: 2em;
+    margin: 0 0 0 250px;
+    text-align: justify;
+}
 
 
 
