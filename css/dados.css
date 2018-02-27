@@ -5,9 +5,25 @@
 
 a{
 font-size: 2em;
-display: block;
+display: inline-block;
 padding:0.2em;
-margin: 0.2em;
+margin:10px 0 10px 20px;
+border-style: solid;
+width: 35px;
+height: 35px;
+text-align: center;
+}
 
+label{
+font-size: 15px;
+margin:20px 0 10px 20px;
+display: inline-block;
+}
 
+button{
+padding: 1em;
+margin: 0.5em;
+width: 150px;
+margin:20px 0 40px 20px;
+display: block;
 }
