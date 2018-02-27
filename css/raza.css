@@ -25,8 +25,8 @@ h1{
 
 .titulo{
     display: inline-block;
-    width: 41px;   
-    height: 200px;
+    width: 36px;   
+    height: 800px;
     writing-mode: vertical-rl;
     text-align: initial;
     font-size: 30px;
@@ -38,7 +38,7 @@ h1{
 .texto-raza{
    
     width: 100px;    
-    height: 200px;
+    height: 800px;
     display: none;
     color: white;
     font-weight: 550;
@@ -143,6 +143,7 @@ background-color: #2B4506;
 #header{
     background-image: url('../img/logo-copia.jpg'); 
     background-repeat: no-repeat;
+    height: 800px;
 }
 
 .rasgos:hover{

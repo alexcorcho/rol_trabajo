@@ -5,11 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
     <link rel="stylesheet" href="css/estilo.css">
 </head>
-<body>
-    <script src="js/autenticacion.js"></script>
+<body>   
     <div class="derecho" >
         <img class="logo" src="img/logo.jpg" alt="logo">
         <p> Lorem ipsum dolor sit amet consectetur    
@@ -29,10 +27,10 @@
     </div>
     <div class="container" >
         <label for="unombre"> <b>Nombre de Usuario</b> </label>
-        <input type="text" placeholder="Ingresase Nombre de Usuario" name="unombre" required >
+        <input id="nombre" type="text" placeholder="Ingresase Nombre de Usuario" name="unombre" required >
         <label for="psw"> <b>Contraseña</b> </label>
-        <input type="password" placeholder="Ingresase Contraseña" name="psw" required >
-       <a href="razas/raza.html"> <button type="submit">Entrar</button></a>
+        <input id="psw" type="password" placeholder="Ingresase Contraseña" name="psw" required >
+        <a href="pages/raza.html">   <button id="ingresar" type="submit">Entrar</button> </a> 
     </div>
     </div>
     
